@@ -10,6 +10,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from flask_login import LoginManager
 from functools import wraps
+from wtforms.validators import DataRequired, URL, Email, Length
 
 login_manager = LoginManager()
 
